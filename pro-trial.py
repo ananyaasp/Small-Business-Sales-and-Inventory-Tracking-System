@@ -1,5 +1,5 @@
 """
-inventory_gui_full.py
+pro-trial.py
 
 Tkinter GUI with tabs (ttk.Notebook) implementing:
 - CRUD for Customer, SalesOrder, Product, Inventory, OrderItems (all tables)
