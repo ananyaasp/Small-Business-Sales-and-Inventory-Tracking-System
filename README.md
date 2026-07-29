@@ -1,4 +1,4 @@
--#  Small Business Sales & Inventory Tracking System
+#  Small Business Sales & Inventory Tracking System
 
 ## 📌 Abstract
 
