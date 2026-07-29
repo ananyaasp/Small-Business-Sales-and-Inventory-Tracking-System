@@ -1,0 +1,2 @@
+# Small-Business-Sales-and-Inventory-Tracking-System
+The Small Business Sales and Inventory Tracking System automates sales recording and inventory management for local shop owners. It offers an interactive Python GUI connected to a MySQL database, enabling users to track daily transactions, update stock levels automatically, and analyze performance through stored procedures, functions, and triggers.
