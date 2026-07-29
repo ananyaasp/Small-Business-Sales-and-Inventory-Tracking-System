@@ -230,17 +230,17 @@ WHERE UnitPrice > (
     FROM Product
 );
 
--- Join 1: Customer and Sales Details
+-- Join 1: Customer and Sales Details --
 SELECT c.Name, s.SalesID, s.OrderDate, s.TotalAmount, s.PaymentMode
 FROM Customer c
 JOIN SalesOrder s ON c.CustomerID = s.CustomerID;
 
--- Join 2: Order Items With Product Details
+-- Join 2: Order Items With Product Details --
 SELECT o.SalesID, p.ProductName, o.Quantity, o.Subtotal
 FROM OrderItems o
 JOIN Product p ON o.ProductID = p.ProductID;
 
--- Join 3: Customer, Order, and Product Together
+-- Join 3: Customer, Order, and Product Together --
 SELECT c.Name AS CustomerName, p.ProductName, o.Quantity, s.OrderDate, s.PaymentMode
 FROM Customer c
 JOIN SalesOrder s ON c.CustomerID = s.CustomerID
